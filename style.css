@@ -9,6 +9,8 @@ body {
 header {
     background-image: url(https://images.pexels.com/photos/811715/pexels-photo-811715.jpeg?h=350&auto=compress&cs=tinysrgb);
     width: 100%;
+    background-size: cover; 
+    background-position: center;
     padding: 15px 40px 50px;
 }
 header nav ul {
@@ -31,6 +33,11 @@ header nav ul>li>a {
 }
 header .a {
     text-align: center;
+}
+header button {
+    background-color: darkkhaki;
+    border-radius: 5px;
+    padding: 15px 40px;
 }
 .container {
     width: 100%;
@@ -163,12 +170,22 @@ header .a {
 }
 .contact {
     text-align: center;
+    background-image: url(https://picsum.photos/g/200/300);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
 }
 .contact input {
     width: 100%;
     text-align: center;
     padding:10px;
     margin: 10px 0;
+}
+.contact button {
+    background-color: darkkhaki;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin: 10px 0 50px;
 }
 footer {
     text-align: center;
